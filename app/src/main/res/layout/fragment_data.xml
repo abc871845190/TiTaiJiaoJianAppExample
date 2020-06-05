@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xuexiang.xui.widget.actionbar.TitleBar
+        android:id="@+id/data_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tb_barHeight="70dp"
+        app:tb_leftImageResource="@mipmap/title_left"
+        app:tb_titleText="@string/navigation_data"
+        app:tb_titleTextSize="25dp"
+        app:tb_useThemeColor="true" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnableOverScrollBounce="false"
+        app:srlEnableOverScrollDrag="true"
+        app:srlEnablePureScrollMode="true">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="45dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp">
+
+                        <com.xuexiang.xui.widget.button.ButtonView
+                            android:id="@+id/data_button_one"
+                            style="@style/ButtonView.Blue"
+                            android:width="100dp"
+                            android:text="text" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="45dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp">
+
+                        <com.xuexiang.xui.widget.button.ButtonView
+                            android:id="@+id/data_button_two"
+                            style="@style/ButtonView.Blue"
+                            android:width="100dp"
+                            android:text="text" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="评分"
+                        android:textSize="35dp" />
+
+                    <!--                <com.example.titaijiaozhengapp.ui.draw.DrawCircle-->
+                    <!--                    android:layout_width="100dp"-->
+                    <!--                    android:layout_height="100dp"-->
+                    <!--                    android:id="@+id/data_circle"-->
+                    <!--                    />-->
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="300dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="圆圈" />
+                </RelativeLayout>
+
+                <ListView
+                    android:id="@+id/data_list_data_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="数据可视化" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="分析结果" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/data_list_data_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="存在的错误状态" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/data_list_data_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

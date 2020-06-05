@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_data"
+            android:icon="@mipmap/drawer_user_data"
+            android:iconTint="@color/colorPrimary"
+            android:title="我的信息" />
+        <item
+            android:id="@+id/drawer_menu_head"
+            android:icon="@mipmap/user_item_acount"
+            android:iconTint="@color/colorPrimary"
+            android:title="我的头像" />
+        <item
+            android:id="@+id/drawer_menu_setting"
+            android:icon="@mipmap/user_item_setting"
+            android:iconTint="@color/colorPrimary"
+            android:title="我的设置" />
+        <item
+            android:id="@+id/drawer_menu_about"
+            android:icon="@mipmap/user_item_about"
+            android:iconTint="@color/colorPrimary"
+            android:title="关于" />
+    </group>
+</menu>

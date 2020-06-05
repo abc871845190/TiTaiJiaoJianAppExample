@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TitaijiaozhengApp</string>
+
+    <string name="navigation_home">首页</string>
+    <string name="navigation_data">数据分析</string>
+    <string name="navigation_suggest">日程</string>
+    <string name="navigation_user">用户</string>
+
+    <string name="top_user_name">用户名</string>
+
+    <string name="user_item_select_data_account">账户</string>
+    <string name="user_item_select_data_email">邮箱</string>
+
+    <string name="user_item_select_about">关于</string>
+    <string name="user_item_select_setting">设置</string>
+    <string name="user_item_cancel">注销</string>
+
+    <string name="top_user">用户中心</string>
+    <string name="home_button_not_message">当前用户并没有测试体态</string>
+    <string name="home_button_click_message">点击测试体态</string>
+</resources>

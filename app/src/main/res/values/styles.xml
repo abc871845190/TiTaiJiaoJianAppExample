@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/XUITheme.Phone">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/xui_config_color_titlebar</item>
+        <item name="colorPrimaryDark">@color/xui_config_color_titlebar</item>
+        <item name="colorAccent">@color/xui_config_color_titlebar</item>
+    </style>
+
+</resources>

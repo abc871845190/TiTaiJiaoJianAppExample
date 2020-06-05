@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#a2c699">
+
+    <ImageView
+        android:id="@+id/drawer_head_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:src="@mipmap/user_item_top" />
+
+    <TextView
+        android:id="@+id/drawer_head_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/drawer_head_img"
+        android:gravity="center"
+        android:text="小小萌新"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/drawer_head_user_name"
+        android:layout_alignBottom="@+id/drawer_head_img"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="-34dp"
+        android:text="这个人很懒，什么都没有留下"
+        android:textSize="17dp" />
+
+</RelativeLayout>
