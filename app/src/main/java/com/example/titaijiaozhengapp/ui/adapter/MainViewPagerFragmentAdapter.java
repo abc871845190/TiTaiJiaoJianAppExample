@@ -3,7 +3,7 @@ package com.example.titaijiaozhengapp.ui.adapter;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
 /*
 * 这个是主界面的viewpager的适配器
 * */
-public class MainViewPagerFragmentAdapter extends FragmentPagerAdapter {
+public class MainViewPagerFragmentAdapter extends FragmentStatePagerAdapter {
 
     private List<Fragment> mFragmentList;
 

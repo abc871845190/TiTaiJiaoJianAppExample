@@ -7,4 +7,6 @@
     <color name="blue">#66CCFF</color>
     <color name="lightdark">#333333</color>
     <color name="dark">#000000</color>
+    <color name="darker_gray">#aaa</color>
+
 </resources>
